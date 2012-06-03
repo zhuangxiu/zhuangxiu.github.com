@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[上海普宏装饰设计工程有限公司]]></title>
+  <link href="http://zhuangxiu.github.com/atom.xml" rel="self"/>
+  <link href="http://zhuangxiu.github.com/"/>
+  <updated>2012-06-03T11:30:34+08:00</updated>
+  <id>http://zhuangxiu.github.com/</id>
+  <author>
+    <name><![CDATA[上海普宏装饰设计工程有限公司]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[作品精选]]></title>
+    <link href="http://zhuangxiu.github.com/blog/2012/06/02/works_select/"/>
+    <updated>2012-06-02T00:00:00+08:00</updated>
+    <id>http://zhuangxiu.github.com/blog/2012/06/02/works_select</id>
+    <content type="html"><![CDATA[<div id="galleria_select" class="galleria"></div>
+
+
+
+
+<script type="text/javascript">
+$.getJSON("/json/photos_select2.json", function(photos){
+    runGalleriaPhotos('#galleria_select', photos);
+    });
+</script>
+
+
+<p><strong><a href="http://zhuangxiu.github.com/works">更多作品</a></strong>
+<strong><a href="http://zhuangxiu.github.com/about_us">关于我们</a></strong></p>
+]]></content>
+  </entry>
+  
+</feed>
